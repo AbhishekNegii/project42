@@ -20,6 +20,7 @@ const Search = () => {
     console.log(data[0].urls.regular);
     
    imgCtx.addItem(data)
+   
   };
 
   return (
@@ -31,7 +32,8 @@ const Search = () => {
           type="text"
           value={text}
           onChange={(e) => setText(e.target.value)}
-          width="40%"
+          style={{width:'80%'}}
+          
         />
         <button class="btn btn-outline-success" onClick={searchHandler}>
           Search

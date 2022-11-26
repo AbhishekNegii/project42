@@ -30,11 +30,13 @@ const HomeBanner = () => {
       <div className="row">
         <div class="banner">
           <div class="maintxt">
-            {<img src={image} alt="pic" className="mw-100" height="30%" />}
+            {<img src={image} alt="pic" className="mw-100" style={{width:'120%', height:'80vh'}} />}
             <span class="carousel-caption">
-             <h2>Unsplash</h2> The internet’s source for visuals. Powered by creators
+            <h2>Unsplash</h2> The internet’s source for visuals. Powered by creators
               everywhere.
-              <Search />
+            <Search />
+            
+              
             </span>
           </div>
         </div>
